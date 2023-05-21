@@ -1,3 +1,13 @@
+Hi Everyone, I have tried to clone the UI of the Google Docs.I have used ReactJs and TailwindCSS to do so. I have also used Quill text editor to make a text editor.This is not responsive and all features are not working exactly as it works in Google Docs but I will try add More Features.
+Here is it looks and the hoisted link of the app.
+<img src="GoogleDocs.png" width="700" title="hover text">
+
+https://google-docs-clone-flame-alpha.vercel.app/
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
