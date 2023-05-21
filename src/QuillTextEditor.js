@@ -65,9 +65,9 @@ Quill.register(FontAttributor, true);
             wrapper.innerHTML = ''
             const editor = document.createElement('div');
             wrapper.append(editor);
-            new Quill(editor,{theme:"snow",modules:{toolbar:toolbarOptions}});
+            new Quill(editor,{theme:"snow",modules:{toolbar:toolbarOptions},placeholder:"                      Type @ to insert"});
         },[])
       return (
-        <div className='container absolute ' ref={wrapperRef}></div>
+        <div className='container absolute' ref={wrapperRef}></div>
       )
 }

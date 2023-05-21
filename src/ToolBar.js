@@ -2,7 +2,7 @@ import React from 'react'
 
 const ToolBar = () => {
   return (
-    <header className='flex justify-between items-center p-3 pb-1'>
+    <header className='my flex justify-between items-center p-3 pb-1 '>
                 
                 <img src="https://cdn-icons-png.flaticon.com/128/2991/2991108.png" className='h-14 p-2' alt="" />
                 <div className=' flex-grow justify-content items-center '>

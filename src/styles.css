@@ -32,12 +32,16 @@ body{
     border-radius: 8rem;
 
 }
+.container .ql-editor.ql-blank{
+    position: sticky;
+}
 @page{
     margin: 1in;
 }
 @media print{
     body{
         background: none;
+        margin-top: 4px;
     }
     .container .ql-editor{
         width: 6.5in;
@@ -49,6 +53,9 @@ body{
     }
     .container  .ql-toolbar.ql-snow{
        display: none;
+    }
+    .my{
+        display: none;
     }
     .my header img{
         display:none;
